@@ -18,7 +18,7 @@
     "prettier:check": "prettier --check 'src/**/*.sol'",
     "prettier:write": "prettier --write 'src/**/*.sol'",
     "build": "pnpm run wagmi:generate && pnpm run prettier:write && tsup",
-    "build:js": "pnpm run build",
+    "build:js": "echo 'Skipping build:js for contract package - use build instead' && exit 0",
     "wagmi:generate": "wagmi generate && pnpm exec rename-generated-abi-casing ./package/wagmiGenerated.ts"
   },
   "dependencies": {
