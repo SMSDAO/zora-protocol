@@ -16,7 +16,7 @@
   "scripts": {
     "build": "forge build",
     "build:contracts:minimal": "forge build --skip test --skip script --no-metadata",
-    "build:js": "pnpm run wagmi:generate && pnpm run copy-abis && pnpm run prettier:write && tsup",
+    "build:js": "echo 'Skipping build:js for contract package - use build instead' && exit 0",
     "build:sizes": "forge build src/ --sizes",
     "copy-abis": "pnpm exec bundle-abis",
     "coverage": "forge coverage --report lcov --ir-minimum --no-match-coverage '(test/|src/utils/uniswap/|script/)'",
