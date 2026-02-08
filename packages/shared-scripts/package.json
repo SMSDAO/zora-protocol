@@ -20,7 +20,7 @@
     "@turnkey/http": "^2.5.1",
     "@turnkey/viem": "^0.6.8",
     "@zoralabs/tsconfig": "workspace:^",
-    "glob": "^10.2.2",
+    "glob": "^12.0.0",
     "tsup": "^7.2.0",
     "tsx": "^4.19.2",
     "typescript": "^5.2.2",
